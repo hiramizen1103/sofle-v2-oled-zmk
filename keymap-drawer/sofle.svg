@@ -374,6 +374,30 @@ path.combo {
 <a href="#adjust">
 <text x="0" y="0" class="key tap layer-activator">adjust</text>
 </a></g>
+<g class="combo combopos-0">
+<path d="M287,244 l74,39" class="combo"/>
+<path d="M287,244 l-74,-39" class="combo"/>
+<rect rx="6" ry="6" x="273" y="231" width="28" height="26" class="combo"/>
+<text x="287" y="244" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-1">
+<path d="M315,247 l48,33" class="combo"/>
+<path d="M315,247 l-48,-33" class="combo"/>
+<rect rx="6" ry="6" x="301" y="234" width="28" height="26" class="combo"/>
+<text x="315" y="247" class="combo tap">PASTE</text>
+</g>
+<g class="combo combopos-2">
+<path d="M259,247 l101,38" class="combo"/>
+<path d="M259,247 l-101,-38" class="combo"/>
+<rect rx="6" ry="6" x="245" y="234" width="28" height="26" class="combo"/>
+<text x="259" y="247" class="combo tap">CUT</text>
+</g>
+<g class="combo combopos-3">
+<path d="M231,261 l129,26" class="combo"/>
+<path d="M231,261 l-129,-26" class="combo"/>
+<rect rx="6" ry="6" x="217" y="248" width="28" height="26" class="combo"/>
+<text x="231" y="261" class="combo tap">UNDO</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 398)" class="layer-lower">
@@ -381,7 +405,7 @@ path.combo {
 <g transform="translate(0, 56)">
 <g transform="translate(28, 63)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Gui+F4</text>
+<text x="0" y="0" class="key tap">~</text>
 </g>
 <g transform="translate(84, 63)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -604,6 +628,30 @@ path.combo {
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-1.2em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan><tspan x="0" dy="1.2em">ALL</tspan>
 </text>
+</g>
+<g class="combo combopos-0">
+<path d="M287,244 l74,39" class="combo"/>
+<path d="M287,244 l-74,-39" class="combo"/>
+<rect rx="6" ry="6" x="273" y="231" width="28" height="26" class="combo"/>
+<text x="287" y="244" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-1">
+<path d="M315,247 l48,33" class="combo"/>
+<path d="M315,247 l-48,-33" class="combo"/>
+<rect rx="6" ry="6" x="301" y="234" width="28" height="26" class="combo"/>
+<text x="315" y="247" class="combo tap">PASTE</text>
+</g>
+<g class="combo combopos-2">
+<path d="M259,247 l101,38" class="combo"/>
+<path d="M259,247 l-101,-38" class="combo"/>
+<rect rx="6" ry="6" x="245" y="234" width="28" height="26" class="combo"/>
+<text x="259" y="247" class="combo tap">CUT</text>
+</g>
+<g class="combo combopos-3">
+<path d="M231,261 l129,26" class="combo"/>
+<path d="M231,261 l-129,-26" class="combo"/>
+<rect rx="6" ry="6" x="217" y="248" width="28" height="26" class="combo"/>
+<text x="231" y="261" class="combo tap">UNDO</text>
 </g>
 </g>
 </g>
@@ -832,6 +880,30 @@ path.combo {
 <g transform="translate(756, 259)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
+<g class="combo combopos-0">
+<path d="M287,244 l74,39" class="combo"/>
+<path d="M287,244 l-74,-39" class="combo"/>
+<rect rx="6" ry="6" x="273" y="231" width="28" height="26" class="combo"/>
+<text x="287" y="244" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-1">
+<path d="M315,247 l48,33" class="combo"/>
+<path d="M315,247 l-48,-33" class="combo"/>
+<rect rx="6" ry="6" x="301" y="234" width="28" height="26" class="combo"/>
+<text x="315" y="247" class="combo tap">PASTE</text>
+</g>
+<g class="combo combopos-2">
+<path d="M259,247 l101,38" class="combo"/>
+<path d="M259,247 l-101,-38" class="combo"/>
+<rect rx="6" ry="6" x="245" y="234" width="28" height="26" class="combo"/>
+<text x="259" y="247" class="combo tap">CUT</text>
+</g>
+<g class="combo combopos-3">
+<path d="M231,261 l129,26" class="combo"/>
+<path d="M231,261 l-129,-26" class="combo"/>
+<rect rx="6" ry="6" x="217" y="248" width="28" height="26" class="combo"/>
+<text x="231" y="261" class="combo tap">UNDO</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1193)" class="layer-adjust">
@@ -1056,6 +1128,30 @@ path.combo {
 </g>
 <g transform="translate(756, 259)" class="key held keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+</g>
+<g class="combo combopos-0">
+<path d="M287,244 l74,39" class="combo"/>
+<path d="M287,244 l-74,-39" class="combo"/>
+<rect rx="6" ry="6" x="273" y="231" width="28" height="26" class="combo"/>
+<text x="287" y="244" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-1">
+<path d="M315,247 l48,33" class="combo"/>
+<path d="M315,247 l-48,-33" class="combo"/>
+<rect rx="6" ry="6" x="301" y="234" width="28" height="26" class="combo"/>
+<text x="315" y="247" class="combo tap">PASTE</text>
+</g>
+<g class="combo combopos-2">
+<path d="M259,247 l101,38" class="combo"/>
+<path d="M259,247 l-101,-38" class="combo"/>
+<rect rx="6" ry="6" x="245" y="234" width="28" height="26" class="combo"/>
+<text x="259" y="247" class="combo tap">CUT</text>
+</g>
+<g class="combo combopos-3">
+<path d="M231,261 l129,26" class="combo"/>
+<path d="M231,261 l-129,-26" class="combo"/>
+<rect rx="6" ry="6" x="217" y="248" width="28" height="26" class="combo"/>
+<text x="231" y="261" class="combo tap">UNDO</text>
 </g>
 </g>
 </g>
