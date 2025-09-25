@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, \, ESCAPE, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, ESC, N, M, ',', ., /, BACKSPACE, '-', '=', LEFT ALT, LEFT WIN, LCTRL, SPACE, ENTER, lower, raise, adjust]
+    Z, X, C, V, B, MUTE, ESC, N, M, ',', ., /, BACKSPACE, '-', '=', LWIN, LEFT ALT, LCTRL, SPACE, ENTER, lower, raise, adjust]
   lower:
   - '~'
   - '!'
@@ -29,10 +29,10 @@ layers:
   - '|'
   - END
   - F6
+  - F7
   - F8
   - F9
   - F10
-  - F12
   - '{'
   - '}'
   - ''
@@ -40,11 +40,11 @@ layers:
   - ':'
   - '"'
   - ''
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
   - ''
+  - ''
+  - ''
+  - F11
+  - F12
   - ''
   - ''
   - '['
@@ -75,10 +75,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - PRINTSCREEN
   - PAGE UP
   - INS
-  - PSCRN
+  - ''
   - CMENU
   - ''
   - ''
