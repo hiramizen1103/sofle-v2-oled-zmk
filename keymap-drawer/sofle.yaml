@@ -1,60 +1,60 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, \, ESCAPE, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, ESC, N, M, ',', ., /, BACKSPACE, '-', '=', LWIN, LEFT ALT, LCTRL, SPACE, ENTER, lower, raise, adjust]
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, '-', LSHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL,
+    Z, X, C, V, B, MUTE, ESC, N, M, ',', ., /, \, raise, '', LEFT ALT, LEFT COMMAND, ENTER, DEL, SPACE, lower, '[', ']']
   lower:
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
-  - ''
   - HOME
   - F1
   - F2
   - F3
   - F4
   - F5
+  - ^
+  - '&'
+  - KP MULTIPLY
   - (
   - )
-  - ''
-  - ''
-  - ''
-  - '|'
+  - +
   - END
   - F6
   - F7
   - F8
   - F9
   - F10
-  - '{'
-  - '}'
+  - (
+  - )
   - ''
   - ''
-  - ':'
-  - '"'
   - ''
+  - ''
+  - PAGE UP
   - ''
   - ''
   - ''
   - F11
   - F12
+  - '{'
+  - '}'
+  - ''
+  - ''
+  - ''
+  - ''
+  - PAGE DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - '['
   - ']'
-  - <
-  - '>'
-  - '?'
   - ''
-  - _
-  - +
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -76,7 +76,7 @@ layers:
   - ''
   - ''
   - PRINTSCREEN
-  - PAGE UP
+  - ''
   - INS
   - ''
   - CMENU
@@ -88,24 +88,16 @@ layers:
   - ''
   - ''
   - ''
-  - PAGE DOWN
-  - LEFT ARROW
-  - DOWN ARROW
-  - UP ARROW
-  - RIGHT ARROW
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - LEFT
   - DOWN
   - RIGHT
-  - ''
-  - ''
-  - ''
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - ''
   - ''
   - ''
   - ''
@@ -123,6 +115,14 @@ layers:
   - ''
   - ''
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   adjust:
   - BT CLR
@@ -175,9 +175,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -185,6 +183,8 @@ layers:
   - ''
   - ''
   - {type: held}
+  - ''
+  - ''
 combos:
 - p: [54, 39]
   k: COPY
