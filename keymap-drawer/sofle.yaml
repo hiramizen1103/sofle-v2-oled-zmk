@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, '-', LSHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL,
-    Z, X, C, V, B, MUTE, ESC, N, M, ',', ., /, \, raise, DELETE, LEFT ALT, LEFT COMMAND, ENTER, SPACE, BACKSPACE, lower, '[', ']']
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, '-', raise, A, S, D, F, G, H, J, K, L, ;, '''',
+    LEFT SHIFT, Z, X, C, V, B, MUTE, ESC, N, M, ',', ., /, \, '=', DELETE, LEFT ALT, LEFT COMMAND, LEFT CONTROL, SPACE, ENTER, lower, '[', ']']
   lower:
   - '`'
   - F1
@@ -88,7 +88,7 @@ layers:
   - ''
   - PAGE UP
   - PAGE DOWN
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -114,7 +114,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -149,7 +149,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - RGB BRD
   - RGB BRI
   - ''
@@ -175,7 +175,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
