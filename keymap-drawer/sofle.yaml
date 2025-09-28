@@ -99,7 +99,7 @@ layers:
   - DOWN
   - RIGHT
   - HOME
-  - PAGE DOWN
+  - END
   - ''
   - ''
   - ''
