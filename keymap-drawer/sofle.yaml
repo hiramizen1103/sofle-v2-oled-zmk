@@ -3,24 +3,18 @@ layers:
   default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, '-', raise, A, S, D, F, G, H, J, K, L, ;, '''',
     LEFT SHIFT, Z, X, C, V, B, MUTE, ESC, N, M, ',', ., /, \, '=', DELETE, LEFT ALT, LEFT COMMAND, LEFT CONTROL, SPACE, ENTER, lower, '[', ']']
   lower:
-  - '`'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F8
-  - F9
-  - F10
   - ''
-  - F11
-  - F12
-  - '~'
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - ''
   - ''
   - ''
@@ -31,8 +25,14 @@ layers:
   - ''
   - ''
   - ''
-  - F11
-  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -64,12 +64,12 @@ layers:
   - ''
   - BT CLR ALL
   raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - '`'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - ''
   - ''
   - ''
@@ -77,11 +77,11 @@ layers:
   - INSERT
   - PRINTSCREEN
   - ''
-  - ''
-  - ''
-  - CMENU
-  - ''
-  - ''
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - ''
   - ''
   - UP
@@ -92,8 +92,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - F11
+  - F12
   - ''
   - LEFT
   - DOWN
@@ -115,10 +115,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Alt+LEFT
+  - Alt+RIGHT
+  - Ctl+Alt+LEFT
+  - Ctl+Alt+RIGHT
   - ''
   - ''
   - ''
