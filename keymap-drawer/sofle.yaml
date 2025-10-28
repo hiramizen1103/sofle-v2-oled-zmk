@@ -76,7 +76,7 @@ layers:
   - ''
   - INSERT
   - PRINTSCREEN
-  - ''
+  - '~'
   - F6
   - F7
   - F8
