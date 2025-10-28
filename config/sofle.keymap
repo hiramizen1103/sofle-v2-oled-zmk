@@ -87,7 +87,7 @@
 
             bindings = <
 &kp GRAVE  &kp F1  &kp F2  &kp F3        &kp F4         &kp F5                                        &none  &none     &none     &none      &kp INSERT   &kp PRINTSCREEN
-&none      &kp F6  &kp F7  &kp F8        &kp F9         &kp F10                                       &none  &none     &kp UP    &none      &kp PAGE_UP  &kp PAGE_DOWN
+&kp TILDE  &kp F6  &kp F7  &kp F8        &kp F9         &kp F10                                       &none  &none     &kp UP    &none      &kp PAGE_UP  &kp PAGE_DOWN
 &none      &none   &none   &none         &kp F11        &kp F12                                       &none  &kp LEFT  &kp DOWN  &kp RIGHT  &kp HOME     &kp END
 &none      &none   &none   &none         &none          &none             &none                &none  &none  &none     &none     &none      &none        &none
                    &none   &kp LA(LEFT)  &kp LA(RIGHT)  &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))    &none  &none  &none     &none     &none
